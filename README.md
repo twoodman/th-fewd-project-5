@@ -15,9 +15,10 @@ Or:
 
 To Do:
 - refactor css to sass
-- refactor html/css to use BEM convention
-- remove/replace unnecessary id selectors
-- get coffee
+- ~~refactor html/css to use BEM convention~~ done
+- ~~remove/replace unnecessary id selectors~~ done
+- ~~add gulp and compass to project~~ done
+- ~~get coffee~~ done
 - clean up code
 - remove js scroll jack? probably. or make it really fast.
 - ponder the complexities of a black hole
