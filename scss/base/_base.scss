@@ -1,6 +1,3 @@
-/**********************
-RESET
-***********************/
 * {
   box-sizing: border-box;
 }
@@ -18,4 +15,16 @@ body {
 a {
   text-decoration: none;
   color: $color-dark-gray;
+}
+h1 {
+  font-family: $bungee-stack;
+  font-weight: 700;
+}
+h2 {
+  font-family: $opensans-stack;
+  font-weight: 700;
+}
+p {
+  font-family: $opensans-stack;
+  font-weight: 400;
 }

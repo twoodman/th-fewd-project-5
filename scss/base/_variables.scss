@@ -1,6 +1,21 @@
 // colours
-$color-dark-gray : #373737;
-$color-mid-gray : #424242;
+$color-transparent : transparent;
+$color-white : #f4f4f4; // text
+$color-black : #111111; // bgs and text
+$color-dark-gray : #373737; // text
+$color-mid-gray : #424242; // bgs
+$color-light-gray : #848484; // bgs
+$color-red : #c0392b; // hover text
 
 // font size
 $base-font-size : 16px;
+
+// font stacks
+$poppins-stack : 'Poppins', sans-serif;
+$bungee-stack : 'Bungee', sans-serif;
+$opensans-stack : 'Open Sans', sans-serif;
+
+// media breaks
+$break-767 : '(min-width: 767px)';
+$break-1023 : '(min-width: 1023px)';
+$break-1300 : '(min-width: 1300px)';

@@ -1,0 +1,9 @@
+.site-wrap {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  @include display-flex();
+  @include flex-direction(column);
+  font-family: $poppins-stack;
+  color: $color-white;
+}
