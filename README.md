@@ -15,6 +15,7 @@ Or:
 
 To Do:
 - refactor css to sass
+- refactor html/css to use BEM convention
 - remove/replace unnecessary id selectors
 - get coffee
 - clean up code
