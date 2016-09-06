@@ -29,3 +29,6 @@ To Do:
 - ~~ponder the complexities of a black hole~~ always
 - ~~make nav anchor hover cleaner~~ done
 - ~~minify styles and js (if keeping)? probably.~~ done
+- ~~put html through validator~~ done | first validation: no errors
+- ~~put css through validator~~ done | first validation: no errors
+- ~~put js through jshint?~~ done | first validation: no errors
