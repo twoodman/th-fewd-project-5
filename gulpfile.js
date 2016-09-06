@@ -19,25 +19,25 @@ gulp.task('sass', function() {
   .pipe(plumber())
   .pipe(compass({
     config_file: './config.rb',
-    css: 'stylesheets',
+    css: 'css',
     sass: 'scss'
   }))
   .pipe(cleanCSS())
   .pipe(rename({
     suffix: '.min'
   }))
-  .pipe(gulp.dest('stylesheets/'));
+  .pipe(gulp.dest('css/'));
 });
 
 // minify, rename, output JS
 gulp.task('scripts', function() {
-  gulp.src('javascripts/*.js')
+  gulp.src('js/*.js')
   .pipe(plumber())
   .pipe(uglify())
   .pipe(rename({
     suffix: '.min'
   }))
-  .pipe(gulp.dest('javascripts/'));
+  .pipe(gulp.dest('js/'));
 });
 
 // open & live reload webserver
