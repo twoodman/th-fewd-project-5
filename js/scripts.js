@@ -6,5 +6,5 @@ $('a[href^="#"]').on('click',function (e) {
 
     $('html, body').stop().animate({
         'scrollTop': $target.offset().top
-    }, 1500, 'swing');
+    }, 800, 'swing');
 });
