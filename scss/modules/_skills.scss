@@ -1,22 +1,56 @@
-/**********************
-SKILLS
-***********************/
 #skills {
-    color: #f4f4f4;
-    width: 100%;
-    min-height: 400px;
-    text-align: center;
-    padding: 40px 15px 40px 15px;
-    background: #212121;
-    margin-top: 0;
+  color: #f4f4f4;
+  width: 100%;
+  min-height: 400px;
+  text-align: center;
+  padding: 40px 15px 40px 15px;
+  background: #212121;
+  margin-top: 0;
 }
 #skills h2 {
-    font-weight: 700;
-    font-size: 1em;
-    margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 1em;
+  margin-bottom: 40px;
 }
 #skills ul {
-    text-align: left;
+  text-align: left;
+  list-style: none;
+  margin: 0;
+}
+@media (min-width: 767px) {
+  #skills {
+    text-align: center;
+    padding: 40px 30px 40px 30px;
+    margin-top: 0;
+  }
+  #skills h2 {
+    font-weight: 700;
+    font-size: 1em;
+    margin-bottom: 80px;
+  }
+  #skills ul {
+    text-align: center;
     list-style: none;
     margin: 0;
+    padding: 0;
+  }
+  #skills ul li {
+    line-height: 2em;
+  }
+}
+@media (min-width: 1023px) {
+  #skills h2 {
+    font-weight: 700;
+    font-size: 1em;
+    margin-bottom: 80px;
+  }
+  #skills ul {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  #skills ul li {
+    line-height: 2em;
+  }
 }

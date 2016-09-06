@@ -1,0 +1,91 @@
+#portfolio {
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  padding: 40px 15px 0 15px;
+  margin-bottom: 0;
+}
+#portfolio h2 {
+  font-weight: 700;
+  font-size: 1em;
+  margin-bottom: 40px;
+}
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.cell {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.cell:hover {
+  background-color: #212121;
+  cursor: crosshair;
+}
+.cell:last-child {
+  margin-bottom: 50px;
+}
+.cell img {
+  width: 100%;
+}
+.cell h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+.cell p {
+  margin-top: -30px;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.95em;
+}
+@media (min-width: 767px) {
+  #portfolio h2 {
+    font-weight: 700;
+    font-size: 1em;
+    margin-bottom: 40px;
+  }
+  .grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .cell {
+    width: 46%;
+  }
+  .cell img {
+    width: 100%;
+  }
+  .cell h2 {
+    font-size: 1.1em;
+  }
+  .cell p {
+    font-size: 0.95em;
+  }
+}
+@media (min-width: 1023px) {
+  #portfolio h2 {
+    font-weight: 700;
+    font-size: 1em;
+    margin-bottom: 40px;
+  }
+  .grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .cell {
+    width: 30%;
+  }
+  .cell img {
+    width: 100%;
+  }
+  .cell h2 {
+    font-size: 1.1em;
+  }
+  .cell p {
+    font-size: 0.95em;
+  }
+}
