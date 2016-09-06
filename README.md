@@ -1,7 +1,7 @@
 #### Project 5 for Treehouse FEWD Course
 ----
 
-CSS to Sass Refactoring
+CSS to Sass Refactoring of Project 2
 
 
 To Run:
