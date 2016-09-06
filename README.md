@@ -15,6 +15,7 @@ Or:
 
 To Do:
 - refactor css to sass
+- make sure not to nest more than 3 deep
 - ~~refactor html/css to use BEM convention~~ done
 - ~~remove/replace unnecessary id selectors~~ done
 - ~~add gulp and compass to project~~ done
