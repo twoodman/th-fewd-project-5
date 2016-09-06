@@ -1,13 +1,13 @@
-#topnav {
+#top-nav {
   text-align: center;
 }
-#topnav ul {
+#top-nav ul {
   list-style: none;
   text-align: center;
   padding: 0;
   margin: 0;
 }
-#topnav ul li {
+#top-nav ul li {
   width: 100%;
   height: 40px;
   padding: 12px;
@@ -17,13 +17,13 @@
   line-height: 1em;
   font-size: 0.9em;
 }
-#topnav ul li a {
+#top-nav ul li a {
   padding: 10px 50px;
   text-decoration: none;
   color: #f4f4f4;
 }
 @media (min-width: 767px) {
-  #topnav ul {
+  #top-nav ul {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -31,22 +31,22 @@
     align-items: center;
     margin-bottom: 2.5em;
   }
-  #topnav ul li {
+  #top-nav ul li {
     background-color: transparent;
   }
-  #topnav ul li a {
+  #top-nav ul li a {
     transition: all 300ms ease-out;
     width: 10%;
     margin: 0 5px 0 5px;
     padding: 10px;
     background-color: transparent;
   }
-  #topnav ul li a:hover {
+  #top-nav ul li a:hover {
     border-bottom: 2px solid #1a1f2b;
   }
 }
 @media (min-width: 1023px) {
-  .navwrapper {
+  .header__nav-wrap {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

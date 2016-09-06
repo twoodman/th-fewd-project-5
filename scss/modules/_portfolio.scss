@@ -4,38 +4,39 @@
   text-align: center;
   padding: 40px 15px 0 15px;
   margin-bottom: 0;
+  h2:first-child {
+    font-weight: 700;
+    font-size: $base-font-size;
+    margin-bottom: 40px;
+  }
 }
-#portfolio h2 {
-  font-weight: 700;
-  font-size: 1em;
-  margin-bottom: 40px;
-}
-.grid {
+.portfolio__grid {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-.cell {
+.portfolio__grid-cell {
   width: 100%;
   margin-bottom: 20px;
+  &:hover {
+    background-color: #212121;
+    cursor: pointer;
+  }
+  &:last-child {
+    margin-bottom: 50px;
+  }
 }
-.cell:hover {
-  background-color: #212121;
-  cursor: crosshair;
-}
-.cell:last-child {
-  margin-bottom: 50px;
-}
-.cell img {
+
+.portfolio__grid-cell img {
   width: 100%;
 }
-.cell h2 {
+.portfolio__grid-cell h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  font-size: 1.1em;
+  font-size: $base-font-size + 1;
 }
-.cell p {
-  margin-top: -30px;
+.portfolio__grid-cell p {
+  margin-top: -10px;
   margin-bottom: 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -47,21 +48,21 @@
     font-size: 1em;
     margin-bottom: 40px;
   }
-  .grid {
+  .portfolio__grid {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  .cell {
+  .portfolio__grid-cell {
     width: 46%;
   }
-  .cell img {
+  .portfolio__grid-cell img {
     width: 100%;
   }
-  .cell h2 {
+  .portfolio__grid-cell h2 {
     font-size: 1.1em;
   }
-  .cell p {
+  .portfolio__grid-cell p {
     font-size: 0.95em;
   }
 }
@@ -71,21 +72,21 @@
     font-size: 1em;
     margin-bottom: 40px;
   }
-  .grid {
+  .portfolio__grid {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  .cell {
+  .portfolio__grid-cell {
     width: 30%;
   }
-  .cell img {
+  .portfolio__grid-cell img {
     width: 100%;
   }
-  .cell h2 {
+  .portfolio__grid-cell h2 {
     font-size: 1.1em;
   }
-  .cell p {
+  .portfolio__grid-cell p {
     font-size: 0.95em;
   }
 }

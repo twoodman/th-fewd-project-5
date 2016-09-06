@@ -1,4 +1,4 @@
-footer {
+#footer {
   text-align: center;
   padding: 20px 15px 10px 15px;
   position: relative;
@@ -8,19 +8,19 @@ footer {
   flex-wrap: nowrap;
   flex-direction: column;
 }
-footer h2 {
+#footer h2 {
   font-weight: 700;
   font-size: 1.1em;
   margin-bottom: 40px;
 }
-footer p {
+#footer p {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.1em;
 }
-footer span {
+#footer span {
   font-weight: 700;
 }
-.footerclose {
+.footer__nav-wrap {
   width: 100%;
   display: flex;
   flex-wrap: nowrap;
@@ -31,25 +31,25 @@ footer span {
   font-size: 0.75em;
   line-height: 2.5em;
 }
-.footerclose p {
+.footer__nav-wrap p {
   padding: 0;
 }
-.footerclose a {
+.footer__nav-wrap a {
   padding: 15px;
   text-decoration: none;
   color: #f4f4f4;
   transition: all 300ms ease-out;
 }
-.footerclose a:hover {
+.footer__nav-wrap a:hover {
   border-bottom: 2px solid #1a1f2b;
 }
-.footerclose a p {
+.footer__nav-wrap a p {
   color: #f4f4f4;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   letter-spacing: -0.7px;
 }
-#footernav {
+#footer-nav {
   display: none;
 }
 @media (min-width: 767px) {
@@ -69,26 +69,26 @@ footer span {
   footer span {
     font-weight: 700;
   }
-  .contactinfo {
+  .footer__info {
     margin: 80px auto 0 auto;
     width: 75%;
   }
-  .footerclose {
+  .footer__nav-wrap {
     bottom: 0;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
   }
-  #contact .footerclose p {
+  #footer .footer__nav-wrap p {
     padding: 0;
   }
-  .footerclose p:last-child {
+  .footer__nav-wrap p:last-child {
     display: none;
   }
-  #footernav {
+  #footer-nav {
     display: block;
   }
-  #footernav ul {
+  #footer-nav ul {
     margin: 0;
     display: flex;
     justify-content: flex-end;
@@ -96,14 +96,14 @@ footer span {
     flex-wrap: nowrap;
     list-style: none;
   }
-  #footernav ul li {
+  #footer-nav ul li {
     width: 100%;
     height: 40px;
     padding: 10px 0px 10px 10px;
     line-height: 1.5em;
     font-size: 1.1em;
   }
-  #footernav ul li a {
+  #footer-nav ul li a {
     width: 10%;
     color: #f4f4f4;
     padding: 10px 10px 10px 10px;
@@ -111,13 +111,13 @@ footer span {
   }
 }
 @media (min-width: 1023px) {
-  .footerclose {
+  .footer__nav-wrap {
     bottom: 0;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
   }
-  #footernav ul {
+  #footer-nav ul {
     margin: 0;
     display: flex;
     justify-content: flex-end;
@@ -125,7 +125,7 @@ footer span {
     flex-wrap: nowrap;
     list-style: none;
   }
-  #footernav ul li {
+  #footer-nav ul li {
     width: 100%;
     height: 40px;
     padding: 10px 0px 10px 10px;

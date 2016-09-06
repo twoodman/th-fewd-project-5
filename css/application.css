@@ -19,7 +19,7 @@ a {
   text-decoration: none;
   color: #373737; }
 
-.sitewrapper {
+.site-wrap {
   width: 100%;
   min-height: 100%;
   margin: 0;
@@ -28,12 +28,12 @@ a {
   font-family: 'Poppins', sans-serif;
   color: #f4f4f4; }
 
-#home {
+#header {
   min-height: 500px;
   text-align: center;
   background-color: #848484;
   padding: 15px 15px 100px 15px; }
-  #home h1 {
+  #header h1 {
     margin-top: 0;
     font-weight: 700;
     color: #373737;
@@ -41,11 +41,11 @@ a {
     font-family: 'Bungee', sans-serif; }
 
 @media (min-width: 767px) {
-  #home {
+  #header {
     text-align: center;
     padding: 30px 30px 0 30px; }
 
-  #home h1 {
+  #header h1 {
     margin-top: 0;
     font-size: 2.5em;
     font-weight: 700;
@@ -53,7 +53,7 @@ a {
     line-height: 1em; } }
 @media (min-width: 1024px) {
   min-height: 450px; }
-footer {
+#footer {
   text-align: center;
   padding: 20px 15px 10px 15px;
   position: relative;
@@ -63,19 +63,19 @@ footer {
   flex-wrap: nowrap;
   flex-direction: column; }
 
-footer h2 {
+#footer h2 {
   font-weight: 700;
   font-size: 1.1em;
   margin-bottom: 40px; }
 
-footer p {
+#footer p {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.1em; }
 
-footer span {
+#footer span {
   font-weight: 700; }
 
-.footerclose {
+.footer__nav-wrap {
   width: 100%;
   display: flex;
   flex-wrap: nowrap;
@@ -86,25 +86,25 @@ footer span {
   font-size: 0.75em;
   line-height: 2.5em; }
 
-.footerclose p {
+.footer__nav-wrap p {
   padding: 0; }
 
-.footerclose a {
+.footer__nav-wrap a {
   padding: 15px;
   text-decoration: none;
   color: #f4f4f4;
   transition: all 300ms ease-out; }
 
-.footerclose a:hover {
+.footer__nav-wrap a:hover {
   border-bottom: 2px solid #1a1f2b; }
 
-.footerclose a p {
+.footer__nav-wrap a p {
   color: #f4f4f4;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   letter-spacing: -0.7px; }
 
-#footernav {
+#footer-nav {
   display: none; }
 
 @media (min-width: 767px) {
@@ -124,26 +124,26 @@ footer span {
   footer span {
     font-weight: 700; }
 
-  .contactinfo {
+  .footer__info {
     margin: 80px auto 0 auto;
     width: 75%; }
 
-  .footerclose {
+  .footer__nav-wrap {
     bottom: 0;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row; }
 
-  #contact .footerclose p {
+  #footer .footer__nav-wrap p {
     padding: 0; }
 
-  .footerclose p:last-child {
+  .footer__nav-wrap p:last-child {
     display: none; }
 
-  #footernav {
+  #footer-nav {
     display: block; }
 
-  #footernav ul {
+  #footer-nav ul {
     margin: 0;
     display: flex;
     justify-content: flex-end;
@@ -151,26 +151,26 @@ footer span {
     flex-wrap: nowrap;
     list-style: none; }
 
-  #footernav ul li {
+  #footer-nav ul li {
     width: 100%;
     height: 40px;
     padding: 10px 0px 10px 10px;
     line-height: 1.5em;
     font-size: 1.1em; }
 
-  #footernav ul li a {
+  #footer-nav ul li a {
     width: 10%;
     color: #f4f4f4;
     padding: 10px 10px 10px 10px;
     margin: 0; } }
 @media (min-width: 1023px) {
-  .footerclose {
+  .footer__nav-wrap {
     bottom: 0;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row; }
 
-  #footernav ul {
+  #footer-nav ul {
     margin: 0;
     display: flex;
     justify-content: flex-end;
@@ -178,22 +178,22 @@ footer span {
     flex-wrap: nowrap;
     list-style: none; }
 
-  #footernav ul li {
+  #footer-nav ul li {
     width: 100%;
     height: 40px;
     padding: 10px 0px 10px 10px;
     line-height: 1.5em;
     font-size: 1.1em; } }
-#topnav {
+#top-nav {
   text-align: center; }
 
-#topnav ul {
+#top-nav ul {
   list-style: none;
   text-align: center;
   padding: 0;
   margin: 0; }
 
-#topnav ul li {
+#top-nav ul li {
   width: 100%;
   height: 40px;
   padding: 12px;
@@ -203,13 +203,13 @@ footer span {
   line-height: 1em;
   font-size: 0.9em; }
 
-#topnav ul li a {
+#top-nav ul li a {
   padding: 10px 50px;
   text-decoration: none;
   color: #f4f4f4; }
 
 @media (min-width: 767px) {
-  #topnav ul {
+  #top-nav ul {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -217,20 +217,20 @@ footer span {
     align-items: center;
     margin-bottom: 2.5em; }
 
-  #topnav ul li {
+  #top-nav ul li {
     background-color: transparent; }
 
-  #topnav ul li a {
+  #top-nav ul li a {
     transition: all 300ms ease-out;
     width: 10%;
     margin: 0 5px 0 5px;
     padding: 10px;
     background-color: transparent; }
 
-  #topnav ul li a:hover {
+  #top-nav ul li a:hover {
     border-bottom: 2px solid #1a1f2b; } }
 @media (min-width: 1023px) {
-  .navwrapper {
+  .header__nav-wrap {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -293,38 +293,35 @@ footer span {
   text-align: center;
   padding: 40px 15px 0 15px;
   margin-bottom: 0; }
+  #portfolio h2:first-child {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 40px; }
 
-#portfolio h2 {
-  font-weight: 700;
-  font-size: 1em;
-  margin-bottom: 40px; }
-
-.grid {
+.portfolio__grid {
   display: flex;
   justify-content: center;
   flex-direction: column; }
 
-.cell {
+.portfolio__grid-cell {
   width: 100%;
   margin-bottom: 20px; }
+  .portfolio__grid-cell:hover {
+    background-color: #212121;
+    cursor: pointer; }
+  .portfolio__grid-cell:last-child {
+    margin-bottom: 50px; }
 
-.cell:hover {
-  background-color: #212121;
-  cursor: crosshair; }
-
-.cell:last-child {
-  margin-bottom: 50px; }
-
-.cell img {
+.portfolio__grid-cell img {
   width: 100%; }
 
-.cell h2 {
+.portfolio__grid-cell h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  font-size: 1.1em; }
+  font-size: 17px; }
 
-.cell p {
-  margin-top: -30px;
+.portfolio__grid-cell p {
+  margin-top: -10px;
   margin-bottom: 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -336,21 +333,21 @@ footer span {
     font-size: 1em;
     margin-bottom: 40px; }
 
-  .grid {
+  .portfolio__grid {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around; }
 
-  .cell {
+  .portfolio__grid-cell {
     width: 46%; }
 
-  .cell img {
+  .portfolio__grid-cell img {
     width: 100%; }
 
-  .cell h2 {
+  .portfolio__grid-cell h2 {
     font-size: 1.1em; }
 
-  .cell p {
+  .portfolio__grid-cell p {
     font-size: 0.95em; } }
 @media (min-width: 1023px) {
   #portfolio h2 {
@@ -358,21 +355,21 @@ footer span {
     font-size: 1em;
     margin-bottom: 40px; }
 
-  .grid {
+  .portfolio__grid {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around; }
 
-  .cell {
+  .portfolio__grid-cell {
     width: 30%; }
 
-  .cell img {
+  .portfolio__grid-cell img {
     width: 100%; }
 
-  .cell h2 {
+  .portfolio__grid-cell h2 {
     font-size: 1.1em; }
 
-  .cell p {
+  .portfolio__grid-cell p {
     font-size: 0.95em; } }
 #skills {
   color: #f4f4f4;
