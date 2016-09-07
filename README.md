@@ -29,9 +29,10 @@ To Do:
 - ~~ponder the complexities of a black hole~~ always
 - ~~make nav anchor hover cleaner~~ done
 - ~~minify styles and js (if keeping)? probably.~~ done
-- ~~put html through validator~~ done | first validation: no errors
-- ~~put css through validator~~ done | first validation: no errors
-- ~~put js through jshint?~~ done | first validation: no errors
 - go through Sass and modify for best practices (@includes first, mostly)
 - add some extends to meet 'exceed expectations' requirements of project
 - add visible/invisible comments to sass where appropriate
+- add mobile pop up menu per 'exceeds expectations'
+- put html through validator
+- put css through validator
+- put js through jshint?
