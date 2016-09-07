@@ -32,3 +32,5 @@ To Do:
 - ~~put html through validator~~ done | first validation: no errors
 - ~~put css through validator~~ done | first validation: no errors
 - ~~put js through jshint?~~ done | first validation: no errors
+- go through Sass and modify for best practices (@includes first, mostly)
+- add visible/invisible comments to sass where appropriate
