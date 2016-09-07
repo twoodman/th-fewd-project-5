@@ -5,15 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Darth Vader</title>
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700%7COpen+Sans:400,700%7CBungee" rel="stylesheet">
-  <link rel="stylesheet" href="css/application.min.css">
+  <link rel="stylesheet" href="css/application.css">
 </head>
 <body>
   <div class="site-wrap">
+    <nav id="mobile-nav">
+      <ul id="mobile-nav__list">
+        <li><a href="#header">HOME</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#footer">CONTACT</a></li>
+      </ul>
+    </nav>
     <header id="header">
       <div class="header__nav-wrap">
         <h1>Darth Vader</h1>
+        <a id="mobile-nav__button"></a>
         <nav id="top-nav">
-          <ul>
+          <ul id="top-nav__list" class="top-nav__mobile-inactive">
             <li><a href="#header">HOME</a></li>
             <li><a href="#portfolio">PORTFOLIO</a></li>
             <li><a href="#skills">SKILLS</a></li>
@@ -176,7 +185,7 @@
         <h2>CONTACT</h2>
         <p>If you'd like to talk about the Death Star's canteen menu or anything else really, please contact me.</p>
         <p>Phone: <span>+1(999)THE-VADE</span></p>
-        <p>Email: <span>vader@theorder.com</span></p>
+        <p>Email: <span>vader@empire.com</span></p>
       </div>
       <hr>
       <div class="footer__nav-wrap">
