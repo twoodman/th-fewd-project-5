@@ -39,3 +39,14 @@ To Do:
 - ~~put html through validator~~ done | first validation: no errors
 - ~~put css through validator~~ done | first validation: no errors
 - ~~put js through jshint?~~ done | first validation: no errors
+
+
+Exceeds Expectations:
+- ~~Create multiple subfolders (more than 3) for organizing styles.~~ done
+- ~~Create multiple SCSS partial files (more than 3).~~ done
+- ~~Multiple (more than 1)placeholder selectors~~ done
+- ~~Multiple (more than 3) uses of @extends with placeholders~~ done
+- ~~Multiple (more than 1) additional Sass variables (not just color, font-size, font-family).~~ done
+- ~~Include at least 1 additional mixin for other code (not just for media queries)~~ done
+- ~~Create more than 3 nested Sass rules where appropriate.~~ done
+- ~~Using JavaScript or CSS/Sass, include an icon that, when clicked toggles the navigation on and off when on mobile screen sizes.~~ done
