@@ -1,8 +1,8 @@
+/* SKILLS DIV MEDIA STYLES */
 #skills {
+  @extend %width100-centertext;
   color: $color-white;
-  width: 100%;
   min-height: 400px;
-  text-align: center;
   padding: 40px 15px 40px 15px;
   background: $color-black;
   margin-top: 0;
@@ -19,6 +19,7 @@
     line-height: 2em;
   }
 }
+/* SKILLS MEDIA BREAK STYLES */
 @media #{$break-767} {
   #skills {
     padding: 40px 30px 40px 30px;

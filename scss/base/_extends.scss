@@ -1,0 +1,26 @@
+// fonts
+%font-700-open {
+  font-family: $opensans-stack;
+  font-weight: 700;
+}
+%font-700-poppins {
+  font-family: $poppins-stack;
+  font-weight: 700;
+}
+%font-700-bungee {
+  font-family: $bungee-stack;
+  font-weight: 700;
+}
+%font-size-1 {
+  font-size: $base-font-size + 1.1;
+}
+// flexbox
+%flex-nowrap {
+  @include display-flex();
+  @include flex-wrap(nowrap);
+}
+// other
+%width100-centertext {
+  width: 100%;
+  text-align: center;
+}

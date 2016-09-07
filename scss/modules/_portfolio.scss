@@ -1,27 +1,27 @@
+/* PORTFOLIO GRID STYLES */
 #portfolio {
-  width: 100%;
+  @extend %width100-centertext;
   min-height: 100vh;
-  text-align: center;
   padding: 40px 15px 0 15px;
   margin-bottom: 0;
   h2:first-child {
-    font-size: $base-font-size;
+    @extend %font-size-1;
     margin-bottom: 40px;
   }
 }
 .portfolio__grid {
-  @include display-flex();
+  @extend %flex-nowrap;
   @include justify-content(center);
   @include flex-direction(column);
   .portfolio__grid-cell {
-    width: 100%;
-    margin-bottom: 20px;
     @include box-shadow($color-transparent 0 0 0);
     @include single-transition(all, 300ms, ease);
+    width: 100%;
+    margin-bottom: 20px;
     &:hover {
+      @include box-shadow($color-black 0 0 15px);
       background-color: $color-black;
       cursor: pointer;
-      @include box-shadow($color-black 0 0 15px);
     }
     &:last-child {
       margin-bottom: 50px;
@@ -30,8 +30,8 @@
       width: 100%;
     }
     h2 {
+      @extend %font-size-1;
       margin-top: 10px;
-      font-size: $base-font-size + 1;
     }
     p {
       padding: 10px;
@@ -42,6 +42,7 @@
     }
   }
 }
+/* PORTFOLIO GRID MEDIA BREAK STYLES */
 @media #{$break-767} {
   .portfolio__grid {
     @include display-flex();
@@ -60,7 +61,7 @@
   #portfolio .portfolio__grid .portfolio__grid-cell {
     width: 30%;
     h2 {
-      font-size: $base-font-size + 1.1;
+      font-size: $base-font-size + 1.3;
     }
   }
 }

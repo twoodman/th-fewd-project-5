@@ -1,17 +1,18 @@
+/* HERO STYLES */
 .hero {
-  width: 100%;
-  text-align: center;
+  @extend %width100-centertext;
   margin-bottom: 50px;
   p {
     line-height: 1.5em;
   }
   img {
+    @include box-shadow($color-mid-gray 0 0 10px);
     width: 100%;
     margin-top: 25px;
     margin-bottom: 25px;
-    @include box-shadow($color-mid-gray 0 0 10px);
   }
 }
+/* HERO MEDIA BREAK STYLES */
 @media #{$break-767} {
   .hero {
     @include display-flex();

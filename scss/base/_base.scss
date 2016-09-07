@@ -17,14 +17,12 @@ a {
   color: $color-dark-gray;
 }
 h1 {
-  font-family: $bungee-stack;
-  font-weight: 700;
+  @extend %font-700-bungee;
 }
 h2 {
-  font-family: $opensans-stack;
-  font-weight: 700;
+  @extend %font-700-open;
 }
 p {
-  font-family: $opensans-stack;
+  @extend %font-700-open;
   font-weight: 400;
 }
