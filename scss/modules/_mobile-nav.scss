@@ -1,5 +1,8 @@
 /* MOBILE NAV STYLES */
-#mobile-nav__button {
+.mobile-nav__button {
+  @include tablet {
+    display: none;
+  }
   display: block;
   position: absolute;
   top: 15px;
@@ -9,8 +12,11 @@
   padding: 20px;
   background: url('../img/navicon.svg');
 }
-#mobile-nav {
-  @include single-transition(all, 600ms, ease-in-out);
+.mobile-nav {
+  @include single-transition(all, 300ms, ease-in-out);
+  @include tablet {
+    display: none;
+  }
   z-index: 9999;
   width: 100%;
   height: 228px;
@@ -39,16 +45,6 @@
     border-bottom: 1px solid darken($color-dark-gray, 15%);
   }
 }
-#mobile-nav.active {
+.mobile-nav.active {
   top: 75px;
-}
-
-/* MOBILE NAV MEDIA BREAK STYLES */
-@media #{$break-767} {
-  #mobile-nav {
-    display: none;
-  }
-  #mobile-nav__button {
-    display: none;
-  }
 }

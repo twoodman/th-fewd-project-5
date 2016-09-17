@@ -1,32 +1,27 @@
 /* HEADER STYLES */
-#header {
+header {
+  @include tablet {
+    padding: 30px 30px 0 30px;
+  }
+  @include desktop {
+    min-height: 450px;
+  }
   min-height: 500px;
   text-align: center;
   background-color: $color-light-gray;
   padding: 15px 15px 100px 15px;
   h1 {
+    @include tablet {
+      float: none;
+      font-size: $base-font-size + 22.5;
+      margin-bottom: 10px;
+      line-height: 1em;
+    }
     display: block;
     float: left;
     margin-top: 5px;
     color: $color-dark-gray;
     font-size: $base-font-size + 10;
     margin-bottom: 20px;
-  }
-}
-/* HEADER MEDIA BREAK STYLES */
-@media #{$break-767} {
-  #header {
-    padding: 30px 30px 0 30px;
-    h1 {
-      float: none;
-      font-size: $base-font-size + 22.5;
-      margin-bottom: 10px;
-      line-height: 1em;
-    }
-  }
-}
-@media #{$break-1023} {
-  #header {
-    min-height: 450px;
   }
 }

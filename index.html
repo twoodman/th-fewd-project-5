@@ -9,24 +9,24 @@
 </head>
 <body>
   <div class="site-wrap">
-    <nav id="mobile-nav">
-      <ul id="mobile-nav__list">
-        <li><a href="#header">HOME</a></li>
+    <nav id="mobile-nav" class="mobile-nav">
+      <ul class="mobile-nav__list">
+        <li><a href="#top">HOME</a></li>
         <li><a href="#portfolio">PORTFOLIO</a></li>
         <li><a href="#skills">SKILLS</a></li>
-        <li><a href="#footer">CONTACT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
       </ul>
     </nav>
-    <header id="header">
+    <header id="top">
       <div class="header__nav-wrap">
         <h1>Darth Vader</h1>
-        <a id="mobile-nav__button"></a>
-        <nav id="top-nav">
-          <ul id="top-nav__list" class="top-nav__mobile-inactive">
-            <li><a href="#header">HOME</a></li>
+        <a id="mobile-nav__button" class="mobile-nav__button"></a>
+        <nav class="top-nav">
+          <ul class="top-nav__list" class="top-nav__mobile-inactive">
+            <li><a href="#top">HOME</a></li>
             <li><a href="#portfolio">PORTFOLIO</a></li>
             <li><a href="#skills">SKILLS</a></li>
-            <li><a href="#footer">CONTACT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
           </ul>
         </nav>
       </div>
@@ -41,7 +41,7 @@
       </div>
     </header>
     <main>
-      <section id="portfolio">
+      <section class="portfolio" id="portfolio">
         <h2>PORTFOLIO</h2>
         <div class="portfolio__grid">
           <div class="portfolio__grid-cell">
@@ -166,7 +166,7 @@
           </div>
         </div>
       </section>
-      <section id="skills">
+      <section class="skills" id="skills">
         <h2>SKILLS</h2>
         <ul>
           <li>Leadership</li>
@@ -180,7 +180,7 @@
         </ul>
       </section>
     </main>
-    <footer id="footer">
+    <footer id="contact" class="footer">
       <div class="footer__info">
         <h2>CONTACT</h2>
         <p>If you'd like to talk about the Death Star's canteen menu or anything else really, please contact me.</p>
@@ -190,13 +190,13 @@
       <hr>
       <div class="footer__nav-wrap">
         <p>Darth Vader</p>
-        <a href="#header">BACK TO TOP</a>
-        <nav id="footer-nav">
+        <a href="#top">BACK TO TOP</a>
+        <nav class="footer-nav">
           <ul>
-            <li><a href="#header">HOME</a></li>
+            <li><a href="#top">HOME</a></li>
             <li><a href="#portfolio">PORTFOLIO</a></li>
             <li><a href="#skills">SKILLS</a></li>
-            <li><a href="#footer">CONTACT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
           </ul>
         </nav>
       </div>

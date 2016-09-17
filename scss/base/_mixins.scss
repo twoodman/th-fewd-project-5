@@ -1,0 +1,17 @@
+@mixin tablet {
+  @media #{$break-767} {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media #{$break-1023} {
+    @content;
+  }
+}
+
+@mixin large-monitor {
+  @media #{$break-1300} {
+    @content;
+  }
+}

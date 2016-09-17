@@ -14,7 +14,7 @@ $('#mobile-nav__button').on('click', function(e) {
 });
 
 // close mobile nav on link click
-$('#mobile-nav li a').on('click', function(e) {
+$('#mobile-nav ul li a').on('click', function(e) {
   e.preventDefault();
   // close it
   $mobNav.removeClass('active');

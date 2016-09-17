@@ -11,11 +11,14 @@ $color-red : #c0392b; // hover text
 $base-font-size : 16px;
 
 // font stacks
-$poppins-stack : 'Poppins', sans-serif;
-$bungee-stack : 'Bungee', sans-serif;
-$opensans-stack : 'Open Sans', sans-serif;
+$poppins-stack : 'Poppins', sans-serif; // most header text
+$bungee-stack : 'Bungee', sans-serif; // main title 'vader'
+$opensans-stack : 'Open Sans', sans-serif; // for most p text
 
 // media breaks
-$break-767 : '(min-width: 767px)';
-$break-1023 : '(min-width: 1023px)';
-$break-1300 : '(min-width: 1300px)';
+// tablet
+$break-767 : '(min-width: 767px)'; // first break, removes mobile nav
+// laptop
+$break-1023 : '(min-width: 1023px)'; // second break, makes things larger
+// large screen
+$break-1300 : '(min-width: 1300px)'; // third break, shifts around text

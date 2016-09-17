@@ -1,54 +1,45 @@
 /* HERO STYLES */
 .hero {
   @extend %width100-centertext;
-  margin-bottom: 50px;
-  p {
-    line-height: 1.5em;
-  }
-  img {
-    @include box-shadow($color-mid-gray 0 0 10px);
-    width: 100%;
-    margin-top: 25px;
-    margin-bottom: 25px;
-  }
-}
-/* HERO MEDIA BREAK STYLES */
-@media #{$break-767} {
-  .hero {
+  @include tablet {
     @include display-flex();
     @include justify-content(space-between);
     @include flex-direction(row-reverse);
     @include align-items(flex-start);
-    p {
+  }
+  @include large-monitor {
+    @include display-flex();
+    @include align-items(center);
+  }
+  margin-bottom: 50px;
+  p {
+    @include tablet {
       line-height: 1.35em;
       text-align: left;
       margin: 0;
       margin-right: 5px;
     }
-    img {
-      margin-top: 0;
-      width: 42%;
-    }
-  }
-}
-@media #{$break-1023} {
-  .hero {
-    p {
+    @include desktop {
       width: 40%;
     }
-    img {
-      min-width: 45%;
-    }
-  }
-}
-@media #{$break-1300} {
-  .hero {
-    @include display-flex();
-    @include align-items(center);
-    .hero p {
+    @include large-monitor {
       margin: 0 auto;
       width: 30%;
       text-align: left;
     }
+    line-height: 1.5em;
+  }
+  img {
+    @include box-shadow($color-mid-gray 0 0 10px);
+    @include tablet {
+      margin-top: 0;
+      width: 42%;
+    }
+    @include desktop {
+      min-width: 45%;
+    }
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 }
