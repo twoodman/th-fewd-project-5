@@ -50,3 +50,11 @@ Exceeds Expectations:
 - ~~Include at least 1 additional mixin for other code (not just for media queries)~~ done
 - ~~Create more than 3 nested Sass rules where appropriate.~~ done
 - ~~Using JavaScript or CSS/Sass, include an icon that, when clicked toggles the navigation on and off when on mobile screen sizes.~~ done
+
+
+🔧Fix:
+- Use mixins for media queries (add mixin scss file)
+- Use \@include for adding content to mixin media queries
+- Speed up mobile nav menu open/close (cut time in half from 600ms to 300ms)
+- Add more comments
+- Remove ALL IDs (for styling), add classes
